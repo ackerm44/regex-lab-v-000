@@ -24,12 +24,13 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  #phone.each do |number|
-  if /\(|\)|\-/ === phone || /\D/ === phone
-    puts phone.sub /\(|\)|\-/, ""
+  puts phone.scan(/\d/).size 
+  
+  #if /\(|\)|\-/ === phone || /\D/ === phone
+    #puts phone.sub /\(|\)|\-/, ""
     #phone.join
 
-  else
-    true
-  end
+  #else
+  #  true
+  #end
 end
