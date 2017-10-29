@@ -28,6 +28,8 @@ def valid_phone_number?(phone)
   length = phone.scan(/\d/).size
   if length != 10
     false
+  else
+    true
   end
   
   #if /\(|\)|\-/ === phone || /\D/ === phone
