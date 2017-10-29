@@ -28,5 +28,5 @@ def valid_phone_number?(phone)
     phone.sub /\(|\)|\-/, ""
     phone.join
     puts phone
-  end
+  #end
 end
