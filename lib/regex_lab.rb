@@ -25,7 +25,7 @@ end
 
 def valid_phone_number?(phone)
   puts phone.scan(/\d/).size 
-  
+
   #if /\(|\)|\-/ === phone || /\D/ === phone
     #puts phone.sub /\(|\)|\-/, ""
     #phone.join
