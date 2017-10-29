@@ -31,12 +31,4 @@ def valid_phone_number?(phone)
   else
     true
   end
-
-  #if /\(|\)|\-/ === phone || /\D/ === phone
-    #puts phone.sub /\(|\)|\-/, ""
-    #phone.join
-
-  #else
-  #  true
-  #end
 end
