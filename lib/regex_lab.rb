@@ -24,8 +24,12 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  puts phone.scan(/\d/).size 
-
+  length = 0
+  length = phone.scan(/\d/).size 
+  if length != 10
+    false
+  end
+  
   #if /\(|\)|\-/ === phone || /\D/ === phone
     #puts phone.sub /\(|\)|\-/, ""
     #phone.join
