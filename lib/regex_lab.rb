@@ -27,7 +27,7 @@ def valid_phone_number?(phone)
   #phone.each do |number|
   if /\(|\)|\-/ === phone || /\D/ === phone
     phone.sub /\(|\)|\-/, ""
-    phone.join
+    #phone.join
     puts phone
   else
     true
